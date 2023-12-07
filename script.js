@@ -46,7 +46,7 @@ game = function () {
             console.log('Game Over!');
             alert('Game Over!');
             // 6. Если пользовательское число равно загаданному, то игра заканчивается и выводит сообщение "Поздравляю, Вы угадали!!!".
-        } else if (randomNumber === mysteriousNumber) {
+        } else if (randomNumber == mysteriousNumber) {
             console.log(randomNumber);
             console.log(typeof randomNumber);
             console.log('Поздравляю, вы угадали!!!');
